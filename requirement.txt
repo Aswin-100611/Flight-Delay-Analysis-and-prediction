@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────────────────────
+# Flight Delay Analysis & Prediction — Python Requirements
+# ─────────────────────────────────────────────────────────────
+# Install with: pip install -r requirement.txt
+
+# ── Core Data Science ──────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Machine Learning ───────────────────────────────────────────
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# ── Model Persistence ──────────────────────────────────────────
+joblib>=1.3.0
+
+# ── Jupyter Notebook ───────────────────────────────────────────
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+# ── Data Visualization (optional, for notebook exploration) ────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Utilities ──────────────────────────────────────────────────
+# sqlite3  →  built-in (no install needed)
+# json     →  built-in (no install needed)
+# os       →  built-in (no install needed)
+# warnings →  built-in (no install needed)
+# pickle   →  built-in (no install needed)
